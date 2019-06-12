@@ -1,8 +1,8 @@
 [all]
 tags = jetbrains
 bears = DuplicateFileBear, SpaceConsistencyBear
-files = **
-ignore = .**
+files = **.java, **.kt, **.yml, **.json, **.md, **.sh
+ignore = .**, build/**
 use_spaces = true
 
 [all.network]
